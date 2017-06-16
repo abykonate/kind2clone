@@ -1,0 +1,159 @@
+header{
+	height: 60px;
+	background-color: black;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	padding: 0px 20px 0 40px;
+}
+header img{
+	margin:0 20px 20px 0;
+}
+header .menu{
+	font-size: 18px;
+}
+header a{
+	color: white;
+	padding: 0 12px;
+	text-decoration: none;
+}
+header a:hover{
+	color: #ccc;
+}
+.slider{
+	height: 100px;
+	background-color: #f6f6f6;
+	display: flex;
+	justify-content: space-around;
+	padding: 5px 100px;
+}
+.slider p{
+	font-weight: bold;
+}
+#grain{
+	height: 750px;
+	display: flex;
+	padding-top: 60px;
+	justify-content: space-around;
+}
+.tex{
+	padding-top: 60px;
+	color: black
+}
+.tex h3 , .tex2 h3,.tex3 h3{
+    font-weight: bold;
+}
+#fraise{
+	height: 750px;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 50px;
+	align-items: center;
+	
+}
+#coeur{
+	height: 730px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#life{
+	height: 300px;
+	background-color: #ccc;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #f6f6f6;
+	color: black;
+}
+#life button{
+	height: 50px;
+	width: 170px;
+	color: white;
+	background-color: black;
+}
+#life button:hover{
+	background-color: transparent;
+	color: black;
+	border: 2px solid ;
+
+}
+footer{
+	height: 330px;
+	background-color: black;
+	color: white;
+	padding: 0 80px;
+}
+.pied{
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#image{
+	height: 500px;
+}
+.how{
+	height: 80px;
+	text-align: center;
+}
+.how h1{
+	font-weight: bold;
+	font-size: 60px;
+	color: black;
+}
+.daniel{
+	height:520px; 
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.kind{
+	height: 228px;
+	background-color: #f6f6f6;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding:0 5em 0 40em;
+}
+.kind button{
+	height: 50px;
+	width: 170px;
+	color: black;
+	background-color: transparent;
+	border: 2px solid;
+}
+.kind button:hover{
+	background-color: black;
+	color: white;
+	border: 2px solid ;
+}
+footer .pied .fa{
+	font-size: 26px;
+	color: white;
+	padding-right: 20px;
+}
+.fin{
+	height: 130px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+footer .fin button{
+	width: 250px;
+	height: 50px;
+	color: white;
+	border-radius: 30px;
+	background: transparent;
+	border:1px solid white;
+
+}
+.pied ul a{
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
+}
+footer li{
+	list-style-type: none;
+}
